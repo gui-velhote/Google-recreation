@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Basic title and stylesheet link -->
+        <title>Search</title>
+        <link rel="stylesheet" href="advanced-styles.css">
+    </head>
+    <body>
+        <!-- header division with google logo and return url -->
+        <div class="header">
+            <a href="index.html"><img src="googlelogo.png" alt="Google logo"></a>
+            <a href="index.html">Return to Search</a>
+        </div>
+        <!-- Page header as paragraph for better customization -->
+        <div>
+            <p>Advanced Search</p>
+        </div>
+        <!-- Main container -->
+        <div class="container">
+            <!-- Division for contents with flex rows -->
+            <div class="contents">
+                <!-- First row -->
+                <div class="row-div">
+                    <div>Find pages with...</div>
+                </div>
+                <!-- forms for advanced search -->
+                <form action="https://www.google.com/search">
+                    <!-- row -->
+                    <div class="row-div">
+                        <div class="left-text">all these words:</div>
+                        <div class="middle-box">
+                            <input id="search-box" class="input-box" type="text" name="as_q">
+                        </div>
+                        <div class="right-text">Type the important words: tri-colour rat terrie</div>
+                    </div>
+                    <!-- row -->
+                    <div class="row-div">
+                        <div class="left-text">this exact word or phrase:</div>
+                        <div class="middle-box">
+                            <input id="search-box" class="input-box" type="text" name="as_epq">
+                        </div>
+                        <div class="right-text">Put exact words in quotes: "rat terrier"</div>
+                    </div>
+                    <!-- row -->
+                    <div class="row-div">
+                        <div class="left-text">any of these words:</div>
+                        <div class="middle-box">
+                            <input id="search-box" class="input-box" type="text" name="as_oq">
+                        </div>
+                        <div class="right-text">Type OR between all the words you want: miniature OR standard</div>
+                    </div>
+                    <!-- row -->
+                    <div class="row-div">
+                        <div class="left-text">none of these words:</div>
+                        <div class="middle-box">
+                            <input id="search-box" class="input-box" type="text" name="as_eq">
+                        </div>
+                        <div class="right-text">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+                    </div>
+                    <!-- Last row -->
+                    <div class="row-div">
+                        <!-- Submit button -->
+                        <div class="left-text"></div>
+                        <div class="middle-box" style="text-align: right; width: 41%;">
+                            <input class="submit-button" type="submit" value="Advanced Search">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
