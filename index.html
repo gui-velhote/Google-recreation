@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Basic title and stylesheet link -->
         <title>Search</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <!-- header division with google logo and return url -->
         <div class="header">
             <a href="images.html">Images</a>
-            <a href="index.html">Advanced</a>
+            <a href="advanced.html">Advanced</a>
         </div>
+        <!-- Main container -->
         <div class="container">
+            <!-- Division for contents with flex rows -->
             <div class="contents">
+                <!-- Big logo -->
                 <img src="googlelogo.png" alt="Google logo">
-                <form action="https://www.google.com/search">
+                <!-- Form to fill search query -->
+                <form action="https://www.google.com/search" method="get">
                     <div>
                         <input id="search-box" class="input-box" type="text" name="q">
                     </div>
+                    <!-- Submit button -->
                     <input class="submit-button" type="submit" value="Google Search">
+                    <!-- Feeling Lucky -->
+                    <input class="submit-button" aria-label="I'm Feeling Lucky" name="btnI" type="submit" value="I'm Feeling Lucky">
                 </form>
             </div>
         </div>
